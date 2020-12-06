@@ -74,7 +74,6 @@ app.get("/api/getFavorites", function(req, res){
     
 });//api/getFavorites
 
-
 // starting server
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Express server is running...");
